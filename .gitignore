@@ -1,0 +1,43 @@
+### Java/Kotlin ###
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+*.kotlin_module
+
+### Build ###
+**/build/
+!src/**/build/
+.gradle
+gradle-app.setting
+.gradletasknamecache
+out/
+
+### IDE ###
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+### System ###
+.DS_Store
+Thumbs.db
+
+### ReVanced CLI ###
+revanced-cache/
+options.toml
+local.properties
+
+### Node ###
+node_modules/
+
+### Env files ###
+.env
+*.local.*
